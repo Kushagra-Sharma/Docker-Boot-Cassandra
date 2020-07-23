@@ -6,7 +6,7 @@ services:
     build:
       context: .
       args:
-        JAR_FILE: /springboot-cassandra.jar
+        JAR_FILE: /boot-cassandra.jar
     restart: always
 
   cassandradb:
